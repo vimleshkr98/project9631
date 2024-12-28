@@ -1,0 +1,302 @@
+<html lang="en">
+  <head>
+    <style>
+      *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      nav{
+        width: 100%;
+        position: sticky;
+        height: 75px;
+        line-height: 70px;
+        padding: 0px 100px;
+        background-color: blue;
+      }
+      
+      nav .logo p{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        float: left;
+      }
+      
+      nav ul{
+        float: right;
+      }
+
+      nav li{
+        display: inline-block;
+        list-style: none;
+      }
+
+      nav li a{
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        padding: 0px 30px;
+        text-transform: uppercase;
+      }
+      
+    
+      .gallery{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+      }
+
+      .gallery1{
+        width: 20%;
+        margin: 15px;
+        box-sizing: border-box;
+        float: left;
+        border-radius: 20px;
+        cursor: pointer;
+        padding-top: 10px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25)
+        0 10px 10px rgba(0,0,0,0.22);
+        transition: -4s;
+        background: #f2f2f2;
+
+      }
+      
+      .gallery:hover{
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+        0 3px 6px rgba(0,0,0,0.23);
+        transform: translate(0px -8px);
+      }
+
+      img{
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+      }
+
+      .gallery1 p{
+        text-align: center;
+        padding-top: 0 8px;
+      }
+
+      .gallery1 h3{
+        text-align: center;
+        font-size: 26px;
+        margin: 0px;
+        color: #222f3e;
+      }
+
+      .gallery1 button{
+        text-align: center;
+        font-size: 24px;
+        color: #fff;
+        width: 100%;
+        padding: 15px;
+        border: 0;
+        outline:none;
+        cursor: pointer;
+        margin-top: 5px;
+        border-bottom-right-radius:20px;
+        border-bottom-left-radius: 20px ;
+      }
+
+      .buy-1{
+         background: #2183a2;
+      }
+
+      .buy-2{
+        background: #3b3ebe;
+      }
+
+      .buy-3{
+        background: #060b0b;
+      }
+
+      .buy-4{
+        background: #ff9f43;
+      }
+
+      .row{
+        display: flex;
+        align-items:center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+      }
+
+      .col-1{
+        flex-basis: 58%;
+        min-width: 300px;
+      }
+
+      .col-2 {
+        max-width: 100%;
+        padding: 50px 0;
+      }
+
+      .col-1 h1{
+        font-size: 50px;
+        line-height: 60px;
+        margin: 25px 0;
+      }
+       
+      .col-1 p{
+        font-size: 25px;
+        font-family: sans-serif;
+      }
+
+      .col-1 button{
+        display: inline-block;
+        background: #ff523b;
+        color: white;
+        padding: 8px 30px;
+        margin: 30px 0;
+        border-radius: 30px;
+      }
+
+
+
+      
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="U-XA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, intial-scale1.0">
+    <title>minorproject</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <p>AUTOMOBILE</p>
+      </div>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Gallery</a></li>
+        <li><a href="">Service</a></li>
+      </ul>
+    </nav>
+    <div class="row">
+      <div class="col-1">
+         <h1>Your Are Best<br>Then Your Journey is Happy and Safe</h1>
+         <p> Dear Customer, Your driver and auto is watting for you<br>
+        My auto is Clean and safe</p>
+
+       <button>Details Now</button>
+      </div>
+      <div class="col-2">
+        <img src="b.png">
+
+      </div>
+    </div>
+    
+     <div class="gallery">
+
+
+      <div class="gallery1">
+        <img src="auto.png">
+        <h3>Ram Ji </h3>
+        <p>Tea point to M.C.E Gate</p>
+        <h3>&#8377;20</h3>
+        <button class="buy-1">GO NOW</button>
+      </div>
+
+      <div class="gallery1">
+        <img src="auto.png">
+        <h3>Laddu Bhai </h3>
+        <p>Chhatauni to Baipass</p>
+        <h3>&#8377;10</h3>
+        <button class="buy-2">GO NOW</button>
+      </div>
+
+      <div class="gallery1">
+        <img src="auto.png">
+        <h3 >Fekan Bhai </h3>
+        <p >Habaiadda to M.C.E Gate</p>
+        <h3>&#8377;15</h3>
+        <button class="buy-3">GO NOW</button>
+      </div>
+
+
+
+
+      <div class="gallery1">
+        <img src="auto.png">
+        <h3 >Nattu Kaka</h3>
+        <p>Tea point to Mina Bajar</p>
+        <h3>&#8377;30</h3>
+        <button class="buy-4">GO NOW</button>
+      </div>
+
+      
+      <div class="gallery1">
+        <img src="auto.png">
+        <h3 >Ram Jee </h3>
+        <p>Tea point to M.C.E</p>
+        <h3>&#8377;20</h3>
+        <button class="buy-1">GO NOW</button>
+      </div>
+
+      <div class="gallery1">
+        <img src="auto.png">
+        <h3 >Laddu Bhai</h3>
+        <p>Chhatauni to Baipass</p>
+        <h3>&#8377;10</h3>
+        <button class="buy-2">GO NOW</button>
+      </div>
+
+      <div class="gallery1">
+        <img src="auto.png">
+        <h3>Fekan Bhai </h3>
+        <p>Habaiadda to M.C.E Gate</p>
+        <h3>&#8377;15</h3>
+        <button class="buy-3">GO NOW</button>
+      </div>
+      <div class="gallery1">
+        <img src="auto.png">
+        <h3>Nattu Kaka</h3>
+        <p>Tea point to Mina Bajar</p>
+        <h3>&#8377;30</h3>
+        <button class="buy-4">GO NOW</button>
+      </div>
+
+      <div class="gallery1">
+        <img src="auto.png">
+        <h3 >Ram Ji </h3>
+        <p>Tea point to M.C.E Gate</p>
+        <h3>&#8377;10</h3>
+        <button class="buy-1">GO NOW</button>
+      </div>
+
+      <div class="gallery1">
+        <img src="auto.png">
+        <h3>Laddu Bhai</h3>
+        <p>Chhatauni to Baipass</p>
+        <h3>&#8377;10</h3>
+        <button class="buy-2">GO NOW</button>
+      </div>
+      
+      <div class="gallery1">
+        <img src="auto.png">
+        <h3>Fekan Bhai</h3>
+        <p>Hawaiadda to M.C.E Gate</p>
+        <h3>&#8377;15</h3>
+        <button class="buy-3">GO NOW</button>
+      </div>
+
+      <div class="gallery1">
+        <img src="auto.png">
+        <h3>Nattu Kaka</h3>
+        <p>Tea point to Mina Bajar</p>
+        <h3 class="">&#8377;30</h3>
+        <button class="buy-4">GO NOW</button>
+      </div>
+  
+     </div>
+
+  </body>
+</html>

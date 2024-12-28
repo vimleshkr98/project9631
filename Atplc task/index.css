@@ -1,0 +1,20 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+nav{
+	width: 100%;
+	position: relative;
+	padding: 0px 100px;
+	height: 70px;
+	line-height: 40px;
+	background-color: blue;
+}
+
+nav.logo p{
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+}

@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+            }
+            nav{
+                width: 100%;
+                position: sticky;
+                height: 75px;
+                line-height: 75px;
+                padding: 0px 400px;
+                background-color: blue;
+
+            }
+
+         nav ul{
+            float: right;
+            list-style: none;
+          }
+
+          nav li {
+            display: inline-block; 
+          }
+
+          nav li a{
+            font-size: 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+            padding: 0px 30px;
+          }
+
+          nav li a:hover{
+            background-color: green;
+            color: white;
+          }
+
+           .hero{
+            background-color: pink;
+            margin-top: 0px;
+            height: 600px;
+            border: 2px solid black;
+            flex-wrap: wrap;
+          }
+
+          .box1{
+            background-color: yellow;
+            width: 300px;
+            float: right;
+            height: 200px;
+            margin-right: 10%;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            
+          }
+          .box2{
+            background-color: green;
+            width: 300px;
+            height: 200px;
+            margin-left: 10%;
+            background-image: url(b.png);
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+          }
+
+          .box3{
+            background-color: blue;
+            width: 300px;
+            float: right;
+            margin-right: 10%;
+            height: 200px;
+            border-top-right-radius: 25px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 30px;
+          }
+
+          .box4{
+            background-color: red;
+            width: 300px;
+            margin-left: 10%;
+            height: 200px;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+           
+          }
+        </style>
+        <title>div</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About US</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav> 
+        <marquee width="60%" direction="right" srollamount="5" height="100px"><h1>Division Tag</h1></marquee>
+        <div class="hero">
+            <h2 style="text-align: center;">My Project 1</h2>
+            <div class="box1">
+            </div>
+
+             <div class="box2">
+             </div>
+
+             <h2 style="text-align: center;">My Project2</h2>
+
+             <div class="box3">
+            </div>
+
+            <div class="box4">
+            </div>
+        </div>
+    </body>
+</html>

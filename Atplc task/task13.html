@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,intial-scale1.0" >
+        <title></title>
+        <style>
+            h2{
+                color: white;
+            }
+
+            p{
+                color:white
+            }
+        </style>
+    </head>
+    <body style="background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg);
+      background-size:cover;">
+      <center>
+        <h2>Name and address</h2>
+        <p id="para1"></p>
+        <br>
+
+        <h2>Check whether Value and data-type of two variable are same.</h2>
+        <input type="number" id="input45">
+        <input type="number" id="input21">
+        <button type="button" onclick="checkdata()">check</button>
+
+
+        <form>
+            <br>
+            <h2>add two strings and return them with all alphabet capital.</h2>
+            <label style="color: white;">Enter the first string</label>
+            <input type="text" id="input1"><br>
+
+            <label style="color:white">Enter the second string</label>
+            <input type="text" id="input2"><br>
+            <button type="button" onclick="addAndCapitalStringes">check</button>
+            <br>
+            <br>
+
+            <h2>JavaScript program to convert the length of a given string in bytes.</h2>
+            <label style="color: white;">Enter a string</label>
+            <input type="text" id="input3"><br>
+            <button type="button" onclick="convert()">check Convert</button>
+            <br>
+            <br>
+
+            <h2>program to a round number to specified amount of digits</h2>
+            <label style="color: white;">Enter a number</label>
+            <input type="number" id="input4"><br>
+            <label style="color: white;">Enter the number of digits to round to</label>
+            <input type="number" id="digits"><br>
+            <button type="button" onclick="roundNumber()">Check Round</button>
+            <br>
+            <br>
+        </form>
+        <div id="result" style="border:1pxsolid black; height: 100px; font-size: 40px;background-color: white;">All results are here replace</div>
+      </center>
+      <script>
+        //print name and address document.ElementById("para1").innerHTML="name:vimlesh; address;"
+
+        function checkdata(){
+            let variable1 = document.getElementById("input45").value;
+            let variable2 = document.getElementById("input21").value;
+
+
+            if(variable1 ===variable2){
+                document.getElementById("result").innerText='variables are the same.'
+                
+                // console.log('The value and data yype of the variables are same');
+            }else{
+                document.getElementById("result").innerText='variables are different.'
+
+                // console.log('The value and/or data type of the variables are diffent.');
+            }
+        }
+
+        function
+        addAndCapitalStringes() {
+            // Get the input value
+            let input1 = document.getElementById("input1").value;
+            let input2 = document.getElementById("input2").value; 
+
+            // adding string 
+            let concatenatedString = input1 + input2;
+
+           // Convert all capital string
+            let
+        }
+      </script>
+    </body>
+</html>
