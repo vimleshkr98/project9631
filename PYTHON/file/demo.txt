@@ -1,0 +1,4 @@
+I am Vimlesh kumar
+python from apna college.
+
+D:\PYTHON\file\demo.txt
